@@ -84,34 +84,3 @@ function startOver() {
 
 
 
-/*
-//Code to generate random nummber for the colours
-var gamepattern = [randomChosenColour];
-
-var buttonColours = ["red", "blue", "green", "yellow"];
-
-function nextSequence() {
-	var n = math.random() * 3;
-	var randomNumber = math.floor(n);
-}
-
-var randomChosenColour = buttonColours[randomNumber];
-
-//Jquery is being used to add flash and sounds to the buttons
-$'#randomChosenColour').flash = function (times, duration) {
-	var  = this;
-	times = times || 3;
-	duration = duration || 200;
-	for (var i = 0; i < times; i++) {
-		(function () {
-			setTimeout(function () {
-				T.fadeOut(duration, function () {
-					T.fadeIn(duration);
-				});
-			}, i * duration * 2 + 50);
-		})(i);
-	}
-};
-
-//Using Jquery/Javascript to play audio*/
-
